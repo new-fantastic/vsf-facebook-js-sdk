@@ -4,7 +4,7 @@ export function beforeRegistration({ Vue, config, store, isServer }) {
   if (!isServer) {
     (<any>window).fbAsyncInit = function() {
       FB.init({
-        appId            : config.facebookSdk.id,
+        appId            : config.facebookSdk.appId,
         autoLogAppEvents : true,
         xfbml            : true,
         version          : 'v3.2'

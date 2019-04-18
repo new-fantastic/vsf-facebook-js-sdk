@@ -1,5 +1,7 @@
 # vsf-facebook-js-sdk
 
+<br/>
+
 🕹 Facebook JS SDK module for Vue Storefront 🛠
 
 > Facebook JavaScript SDK documentation: https://developers.facebook.com/docs/javascript/
@@ -13,8 +15,6 @@
 - [Installation](#installation)
 
 - [Usage](#usage)
-
-- [Configuration](#configuration)
 
 - [License](#license)
 
@@ -35,7 +35,7 @@ git clone https://github.com/new-fantastic/vsf-facebook-js-sdk.git
 
 <br/>
 
-### 3. Import and register the module
+### 2. Import and register the module
 
 <br/>
 
@@ -55,7 +55,7 @@ VsfFacebookJsSdk
 
 <br/>
 
-### 4. Add new settings to your config
+### 3. Add new settings to your config
 
 <br/>
 
@@ -65,7 +65,7 @@ Go to `../vue-storefront/config/local.json` and add code below
 
 ```json
 "facebookJsSdk" : {
-   "appId" : ""
+   "appId" : "123456789012345"
 }
 ```
 
@@ -75,7 +75,19 @@ Go to `../vue-storefront/config/local.json` and add code below
 
 <br/>
 
-## ## License
+## Usage
+
+<br/>
+
+#### This module enables you to use:
+
+<br/>
+
+- **Messenger Customer Chat module** – https://github.com/new-fantastic/vsf-messenger-chat
+
+<br/>
+
+## License
 
 <br/>
 

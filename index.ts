@@ -8,4 +8,4 @@ const moduleConfig: VueStorefrontModuleConfig = {
   beforeRegistration
 }
 
-export const FacebookJsSdk = new VueStorefrontModule(moduleConfig)
+export const VsfFacebookJsSdk = new VueStorefrontModule(moduleConfig)

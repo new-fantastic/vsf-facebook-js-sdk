@@ -1,4 +1,4 @@
-# facebook-js-sdk
+# vsf-facebook-js-sdk
 
 <br/>
 
